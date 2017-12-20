@@ -1,0 +1,22 @@
+production-config.php
+local-config.php
+
+/vendor
+
+/public/wordpress
+/public/wp-content/*
+
+# Commit all must use plugins.
+!/public/wp-content/mu-plugins
+
+!/public/wp-content/plugins
+/public/wp-content/plugins/*
+
+# Uncomment to commit plugin changes.
+# !/public/wp-content/plugins/my-plugin-under-development
+
+!/public/wp-content/themes
+/public/wp-content/themes/*
+
+# Uncomment to commit theme changes.
+# !/public/wp-content/themes/my-plugin-under-development
